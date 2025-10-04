@@ -4,6 +4,7 @@
 /// Alphabetically sorted list of all commands.
 pub const commands: []const type = &.{
     @import("basename.zig"),
+    @import("cat.zig"),
     @import("clear.zig"),
     @import("dirname.zig"),
     @import("false.zig"),
